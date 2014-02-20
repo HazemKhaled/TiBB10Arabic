@@ -1,0 +1,30 @@
+"Window": {
+	backgroundColor: "#fff"
+},
+"Label": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	color: "#000",
+	font: {
+		fontSize: 20,
+		fontFamily: 'Helvetica Neue'
+	},
+	textAlign: 'center'
+}
+"ScrollView": {
+	layout: 'vertical',
+	contentHeight: Ti.UI.SIZE
+}
+".dark": {
+	top: 3,
+	backgroundColor: 'gray',
+	color: 'white'
+}
+".light": {
+	top: 3,
+	backgroundColor: "silver",
+	color: 'black'
+}
+"TextArea": {
+	height: 100
+}

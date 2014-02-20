@@ -1,0 +1,18 @@
+<Alloy>
+	<Tab title="Tab 2" icon="ic_contacts.png">
+		<Window title="Tab 2" id="win">
+			<ScrollView>
+				<Label class="dark">Test Arabic controller file</Label>
+				<Label class="light">تجربة الليبل</Label>
+				<Label class="dark" textAlign="right">تجربة الليبل يمين</Label>
+				<Label class="light" textAlign="left">تجربة الليبل شمال لامؤاخزة</Label>
+				<Label class="dark" textAlign="right">تجربة عربي مع انجليزي with English has problem in align يمين</Label>
+				<Label class="light" textAlign="left">تجربة عربي مع انجليزي with English has problem in align شمال</Label>
+				<Label class="dark" textAlign="center">تجربة عربي مع انجليزي with English has problem in align في النص</Label>
+				<Button class="light">زرار تمام</Button>
+				<TextField class="dark">تكت فيلد تمام يا معلم</TextField>
+				<TextArea class="light">بردو زي الفل</TextArea>
+			</ScrollView>
+		</Window>
+	</Tab>
+</Alloy>
