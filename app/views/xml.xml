@@ -12,6 +12,7 @@
 				<Button class="light">زرار تمام</Button>
 				<TextField class="dark" value="تكست فيلد تمام يا معلم" hintText="هينت اهو شغال ويمين تمام" />
 				<TextArea class="light">بردو زي الفل</TextArea>
+				<Label class="light" text="L('from_i18n')" />
 			</ScrollView>
 		</Window>
 	</Tab>

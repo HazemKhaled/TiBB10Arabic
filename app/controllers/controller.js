@@ -8,3 +8,4 @@ $.win.addAction(L('from_i18n'), 'ic_feedback.png', function(e) {
 
 var file = Ti.Filesystem.getFile('app/native/assets/arabictxt.txt');
 $.textLbl.text = file.read().text;
+$.text2Lbl.text = L('from_i18n');

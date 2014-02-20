@@ -3,7 +3,8 @@
 		<Window title="من الكنترولر" id="win">
 			<ScrollView>
 				<Label class="dark">Test Arabic controller file</Label>
-				<Label class="light" id="textLbl" />
+				<Label class="light" id="textLbl" textAlign="right" />
+				<Label class="dark" id="text2Lbl" textAlign="right" />
 			</ScrollView>
 		</Window>
 	</Tab>

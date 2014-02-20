@@ -1,0 +1,7 @@
+"#txtFld": {
+	hintText: 'تست عربي',
+	value: 'تكست عربي اهو تمام'
+}
+"#i18nFld": {
+	hintText: L( 'from_i18n')
+}

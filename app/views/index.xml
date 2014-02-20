@@ -2,7 +2,6 @@
 	<TabGroup>
 		<Require src="xml" />
 		<Require src="tss" />
-		<Require src="i18n" />
 		<Require src="controller" />
 	</TabGroup>
 </Alloy>
