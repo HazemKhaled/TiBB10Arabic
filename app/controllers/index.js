@@ -9,15 +9,12 @@ var appMenu = Ti.UI.BlackBerry.createApplicationMenu({
 	}]
 });
 
-appMenu.addEventListener("click", function(e) {
-	switch (e.index) {
-		case 0:
-			alert("from controller");
-			break;
-		case 1:
-			alert("from i18 file");
-			break;
-	}
+appMenu.addEventListener('click', function(e) {
+	Ti.UI.createAlertDialog({
+		title : "عنوان الرسالة تمام",
+		message : "كمان نص الرسالة تمام",
+		buttonNames : ["عربي", L("from_i18n"), "English"]
+	}).show();
 });
 
 $.index.open();

@@ -3,8 +3,9 @@
 		<Window title="من الكنترولر" id="win">
 			<ScrollView>
 				<Label class="dark">Test Arabic controller file</Label>
-				<Label class="light" id="textLbl" textAlign="right" />
-				<Label class="dark" id="text2Lbl" textAlign="right" />
+				<Label class="light">Read from .txt file</Label>
+				<Label class="dark" id="textLbl" textAlign="right" />
+				<Label class="light" id="text2Lbl" textAlign="right" />
 			</ScrollView>
 		</Window>
 	</Tab>
