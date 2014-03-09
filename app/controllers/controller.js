@@ -5,13 +5,15 @@ $.win.addAction('عربي تمام', 'ic_favorite.png', function(e) {
 $.win.addAction(L('from_i18n'), 'ic_feedback.png', function(e) {
 	alert('from i18 file');
 });
-try {
-	var file = Ti.Filesystem.getFile('app/native/assets/blackberry/arabictxt.txt');
-} catch (e) {
-	var file = Ti.Filesystem.getFile('app/native/assets/arabictxt.txt');
-}
 
+// SDK 3.2.1.GA
+var file = Ti.Filesystem.getFile('app/native/assets/arabictxt.txt');
+if (!file.exists()) {
+	// Nightly build 3.3
+	var file = Ti.Filesystem.getFile('app/native/assets/blackberry/arabictxt.txt');
+}
 $.textLbl.text = file.read().text;
+
 $.text2Lbl.text = L('from_i18n');
 
 var rightBtn = Ti.UI.BlackBerry.createNavButton({
